@@ -26,7 +26,7 @@ When we apply an active high signal to the signal pin of the relay module from a
 
 
 # Program:
-
+```
 #define BLYNK_PRINT Serial
 /* Fill-in your Template ID (only if using Blynk.Cloud) */
 //#define BLYNK_TEMPLATE_ID   "YourTemplateID"
@@ -56,7 +56,7 @@ void loop()
   Blynk.run();
 }
 
-
+```
 # Procedure:
 •	Make the circuit connection as per the diagram. In the mobile, download and “Blynq IoT” application using Google play store and Install it. Create log in ID and Password.
 •	Connect the IN pin of the Relay module to D1 pin of NodeMCU (ESP8266).
